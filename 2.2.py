@@ -4,7 +4,9 @@ y = int(input('Введіть число на яке хочете помножи
 
 def mult(x, y):
     if x == 1:
-        return y
+        return y 
+    elif y==1:
+        return x
     else:
         return y + mult(x - 1, y)
 
