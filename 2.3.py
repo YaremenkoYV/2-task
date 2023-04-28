@@ -6,7 +6,7 @@ def deli(x, y):
     if y == 1:
         return x
     elif y==0:
-        return
+        return print("Ділити на 0 не можна")
     else:
         return deli(x - y, y) if x >= y else x
 print("Результат ділення: ", deli(a, b))
