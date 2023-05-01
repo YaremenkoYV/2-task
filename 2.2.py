@@ -7,10 +7,8 @@ def mult(x, y):
         return y
     elif y == 1:
         return x
-    elif x == 0:
-        return
-    elif y == 0:
-        return
+    elif x == 0 or y == 0:
+        return 0
     else:
         return y + mult(x - 1, y)
 
