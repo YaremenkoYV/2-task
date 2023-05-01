@@ -3,7 +3,7 @@ sum = 0
 sumar = 0
 for i in range(len(alfa)):
     sum  += alfa[i]
-    sumar = sum/len(alfa)
+    sumar = sum / len(alfa)
 print(alfa)
 print(sumar)
 
@@ -21,5 +21,5 @@ print(sumi)
 from functools import reduce
 gamma = alfa[::4]
 print(gamma)
-print(reduce(lambda x, y: x*y, gamma))
+print(reduce(lambda x, y: x * y, gamma))
 
