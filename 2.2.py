@@ -5,8 +5,12 @@ b = int(input('Введіть число на яке хочете помножи
 def mult(x, y):
     if x == 1:
         return y
-    elif y==1:
+    elif y == 1:
         return x
+    elif x == 0:
+        return
+    elif y == 0:
+        return
     else:
         return y + mult(x - 1, y)
 
